@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Student Resgistration Example</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .container{
+                padding-left: 170px;
+            }
+            .form-group{
+                padding-left: 15px;
+            }
+            .container1{
+                width: 500px;
+            }
+            .footer{
+                padding: 7px;
+                height: 50px;
+                background-color:  lightskyblue;
+            }
+        </style>
+    </head>
+    <body>
+            <div class="header text-white bg-primary py-4">
+                <h1 class="text-center text-white">STUDENT REGISTRATION</h1>
+                <h3 class="text-center text-white">ENROLL FOR THE NEW ACADEMIC YEAR</h3>
+            </div>
+            <div class="row">
+            <div class="col-md-6 left-section p-4">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-header justify-content-between bg-dark text-white"> <h2>Registration Form</h2></div>
+                            <form>
+                            <div class="form-group mt-3 mb-3">
+                                <label for="name">Full Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your Full Name:">
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="email">Email Address:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your Email:">
+                            </div>
+                
+                            <div class="form-group mb-3">
+                                <label for="city">Select Course:</label>
+                                <select class="form-control" id="city">
+                                    <option>Web Designing</option>
+                                    <option>Engineering</option>
+                                    <option>Cyber Security</option>
+                                    <option>IT Field</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="Gender">Gender:</label><br>
+                                <input type="radio"> Male     <input type="radio"> Female
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="Skills">Skills:</label><br>
+                                <input type="checkbox"> HTML    <input type="checkbox"> CSS
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="Message">Content:</label>
+                                <textarea class="form-control" id="Message" rows="3" placeholder="Write your message:"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-outline-danger">Clear</button>
+                            </form>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="col-md-6 right-section p-4 border-3">
+                <div class="container1">
+                    <div class="card">
+                        <div class="card-header justify-content-between bg-primary text-white"><h4>Why Join Us?</h4></div>
+                            <ul class="list-group mb-4">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                ✅Industry-relevent Syllabus
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                ✅100% Placement Support
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                ✅Live Projects
+                                </li>
+                            </ul>
+                    </div>
+                    <h5>Seats Filled</h5>
+                    <div class="progress mb-4">
+                        <div class="progress-bar progress-bar-striped"style="width:90%;">90%</div>
+                    </div>
+                    <span class="badge bg-warning text-dark">New Batch Starts Soon!</span>
+                </div>
+            </div>
+            <div class="footer text-center">⚠Hurry Up!!! Time is running over... Register Now🎀</div>
+        </div>
+    </body>
+</html>
